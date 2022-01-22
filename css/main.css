@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*--------------------------------------------- RESET-----------------------------------------*/
+
+#titulos-cartas{
+font-family: 'Big Shoulders Display', cursive;
+font-size: 1.875rem;
+font-weight: bold;
+color: hsl(0, 0%, 95%);
+}
+
+#column-1{
+	background-color:hsl(31, 77%, 52%) ;
+}
+
+#Textos-cartas{
+	font-family: 'Lexend Deca', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 0.938rem;
+}
+
+#botones-cartas{
+	background-color:hsl(0, 0%, 95%) ;
+	color: hsl(31, 77%, 52%);
+	border-color:hsl(0, 0%, 95%);
+
+}
+
+#botones-cartas:hover{
+	background-color: hsl(31, 77%, 52%) ;
+	color: hsl(0, 0%, 95%);
+}
+
+#column-2{
+	background-color: hsl(184, 100%, 22%);
+}
+
+#boton-carta-2{
+	background-color: hsl(0, 0%, 95%);
+	color:hsl(184, 100%, 22%);
+	border-color:hsl(0, 0%, 95%) ;
+}
+
+#boton-carta-2:hover{
+	background-color: hsl(184, 100%, 22%);
+	color: hsl(0, 0%, 95%);
+}
+
+#column-3{
+	background-color: hsl(179, 100%, 13%);
+}
+
+#boton-carta-3{
+	background-color:hsl(0, 0%, 95%);
+	color: hsl(179, 100%, 13%);
+	border-color:hsl(0, 0%, 95%)
+}
+
+#boton-carta-3:hover{
+	background-color: hsl(179, 100%, 13%);
+	color:hsl(0, 0%, 95%) ;
+}
+
+
+
